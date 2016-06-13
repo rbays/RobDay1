@@ -2,18 +2,26 @@
 <html>
 <head>
 	
-	<script>
-		window.alert("Hello World");
-	</script>
 	
 </head>
 <body>
 	
 	
-	<h1>JavaScript - Hello World</h1>
+	<h1>JavaScript - Hello World!</h1>
 
-	
+	<span id = "whey"></span>
+	<br/>
+	<span id = "demo"></span>
+	<script>
+		window.addEventListener('load',myFunction,false);
+		
+		function myFunction(){
+			document.getElementById("demo").innerHTML = "Hello world";
+		}
+		var whey = document.getElementById("whey");
+		whey.innerHTML = "test thing?";
+		
+	</script>
 	
 </body>	
 </html>
-	
